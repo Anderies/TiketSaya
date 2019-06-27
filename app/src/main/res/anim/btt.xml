@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500"
+    android:startOffset="100"
+    android:interpolator="@android:anim/accelerate_interpolator">
+
+    <translate
+        android:fromYDelta="800"
+        android:toYDelta="0"/>
+
+
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"/>
+
+    <!--android interpolator untuk animasi jadi lebih halus-->
+    <!-- scale dari besar 0 sampai menjadi besar 1 scale dapat lebih dari 9-->
+    <!--alpha dari 0 yang artinya ngga ada sampai jadi alpha 1-->
+    <!-- translate untuk mengatur arah munculnya-->
+</set>
